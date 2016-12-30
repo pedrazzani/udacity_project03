@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="br.com.pedrazzani.android.quizmatematico.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <TextView
+        android:id="@+id/pergunta_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@color/colorAccent"
+        android:elevation="4dp"
+        android:padding="16dp"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <RadioButton
+            android:id="@+id/alternativa_1_radio_button"
+            style="@style/RadioButtonStyle"
+            android:text="@string/resposta_1" />
+
+        <RadioButton
+            android:id="@+id/alternativa_2_radio_button"
+            style="@style/RadioButtonStyle"
+            android:text="@string/resposta_2" />
+
+        <RadioButton
+            android:id="@+id/alternativa_3_radio_button"
+            style="@style/RadioButtonStyle"
+            android:text="@string/resposta_3" />
+    </RadioGroup>
+
+
+</LinearLayout>

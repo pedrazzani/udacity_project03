@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Quiz Matemático</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Texto de apresentação -->
+    <string name="texto_aprensentacao">Este é um Quiz para alunos de Matemática do Ensino Fundamental!\n\nVamos Começar??</string>
+
+    <!-- Perguntas -->
+    <!-- Pergunta 1 -->
+    <string name="pergunta_1">Qual dos números abaixo é um número primo?</string>
+    <string name="pergunta_1_alternativa_1">2</string>
+    <string name="pergunta_1_alternativa_2">10</string>
+    <string name="pergunta_1_alternativa_3">7</string>
+    <string name="pergunta_1_correta">7</string>
+    <!-- Pergunta 2 -->
+    <string name="pergunta_2">O que é um número primo?</string>
+    <string name="pergunta_2_alternativa_1">São números divisíveis, apenas, por 1 e por ele mesmo.</string>
+    <string name="pergunta_2_alternativa_2">É uma fração.</string>
+    <string name="pergunta_2_alternativa_3">É o número resultante da raiz quadrada de 4.</string>
+    <string name="pergunta_2_correta">São números divisíveis, apenas, por 1 e por ele mesmo.</string>
+    <!-- Pergunta 3 -->
+    <string name="pergunta_3">Escolha a sequência que determina uma Fração Equivalente.</string>
+    <string name="pergunta_3_alternativa_1">1/1 ; 2/5 ; 3/10</string>
+    <string name="pergunta_3_alternativa_2">1/2 ; 2/4 ; 3/6</string>
+    <string name="pergunta_3_alternativa_3">3/3 ; 5/2 ; 7/1</string>
+    <string name="pergunta_3_correta">1/2 ; 2/4 ; 3/6</string>
+    <!-- Pergunta 4 -->
+    <string name="pergunta_4">Qual a representação, em algorismos romanos, para o número 16.</string>
+    <string name="pergunta_4_alternativa_1">XIIIIII</string>
+    <string name="pergunta_4_alternativa_2">XIV</string>
+    <string name="pergunta_4_alternativa_3">XVI</string>
+    <string name="pergunta_4_correta">XVI</string>
+    <!-- Pergunta 5 -->
+    <string name="pergunta_5">O número romano XC é representado por dos números abaixo?</string>
+    <string name="pergunta_5_alternativa_1">14</string>
+    <string name="pergunta_5_alternativa_2">110</string>
+    <string name="pergunta_5_alternativa_3">90</string>
+    <string name="pergunta_5_correta">90</string>
+    <!-- Pergunta 6 -->
+    <string name="pergunta_6">Qual das sequências abaixo é uma razão inversa?</string>
+    <string name="pergunta_6_alternativa_1">1/7 e 7/2</string>
+    <string name="pergunta_6_alternativa_2">1/9 e 9/9</string>
+    <string name="pergunta_6_alternativa_3">2/5 e 5/2</string>
+    <string name="pergunta_6_correta">2/5 e 5/2</string>
+    <!-- Padrão -->
+    <string name="resposta_3">Resposta 3</string>
+    <string name="resposta_2">resposta 2</string>
+    <string name="resposta_1">resposta 1</string>
+
+</resources>
