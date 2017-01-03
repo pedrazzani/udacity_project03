@@ -6,6 +6,11 @@ package br.com.pedrazzani.android.quizmatematico;
 
 public class Pergunta {
 
+
+    public static enum Tipos {
+        RADIO, CHECK, EDIT;
+    }
+
     private String pergunta;
     private String alternativa1;
     private String alternativa2;
@@ -14,7 +19,18 @@ public class Pergunta {
     private String correta;
     private String resposta;
 
-    public Boolean estaCorreta(){
+    //Tipo de pergunta -> Aberta(EditText) | Uma resposta(Radio) | Multiplas respostas (Check)
+    public Tipos tipo = Tipos.RADIO;
+
+    public Tipos getTipo() {
+        return tipo;
+    }
+
+    public void setTipo(Tipos tipo) {
+        this.tipo = tipo;
+    }
+
+    public Boolean estaCorreta() {
         return correta.equals(resposta);
     }
 

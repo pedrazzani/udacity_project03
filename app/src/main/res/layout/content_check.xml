@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/checkbox_group"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="br.com.pedrazzani.android.quizmatematico.MainActivity">
+
+    <CheckBox
+        android:id="@+id/alternativa_1_checkbox"
+        style="@style/RadioButtonStyle"
+        android:text="@string/resposta_1" />
+
+    <CheckBox
+        android:id="@+id/alternativa_2_checkbox"
+        style="@style/RadioButtonStyle"
+        android:text="@string/resposta_2" />
+
+    <CheckBox
+        android:id="@+id/alternativa_3_checkbox"
+        style="@style/RadioButtonStyle"
+        android:text="@string/resposta_3" />
+</LinearLayout>
